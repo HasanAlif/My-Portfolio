@@ -1,0 +1,11 @@
+
+stack card:
+https://www.reactbits.dev/components/scroll-stack
+https://prismic.io/blog/css-scroll-effects
+
+border card: 
+https://www.reactbits.dev/components/magic-bento
+particles : 
+https://codesandbox.io/p/sandbox/portfolio-react-xnf34p?file=%2Fsrc%2FApp.js
+cursor :
+https://codesandbox.io/p/sandbox/my-portfolio-ds8iu0
