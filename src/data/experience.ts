@@ -28,13 +28,4 @@ export const experiences: Experience[] = [
     start: "2025-02-01",
     end: "2025-04-30",
   },
-  {
-    company: "Freelance",
-    location: "Remote",
-    role: "Backend Developer",
-    description:
-      "Delivered multiple backend projects — a cleaning-service app with real-time messaging (Socket.IO), a personal finance API, and a beauty-services platform — with JWT auth, Stripe payments, and cloud deployment on AWS and Render. Focused on secure, maintainable, scalable systems.",
-    start: "2024-01-01",
-    end: "2025-02-01",
-  },
 ];

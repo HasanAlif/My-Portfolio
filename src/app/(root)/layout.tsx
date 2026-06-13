@@ -20,7 +20,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hasanalif.vercel.app"),
+  metadataBase: new URL("https://mehedi-hasan-alif-portfolio.vercel.app"),
   title:
     "Al Mehedi Hasan Alif | Backend Developer (Node.js, Express.js, API Development)",
   description:
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     "PostgreSQL Developer",
   ],
   authors: [
-    { name: "Al Mehedi Hasan Alif", url: "https://hasanalif.vercel.app" },
+    { name: "Al Mehedi Hasan Alif", url: "https://mehedi-hasan-alif-portfolio.vercel.app" },
   ],
   creator: "Al Mehedi Hasan Alif",
   publisher: "Al Mehedi Hasan Alif",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Al Mehedi Hasan Alif | Backend Developer Portfolio",
     description:
       "Experienced Backend Developer building scalable, secure RESTful APIs and high-performance server-side solutions.",
-    url: "https://hasanalif.vercel.app",
+    url: "https://mehedi-hasan-alif-portfolio.vercel.app",
     siteName: "Al Mehedi Hasan Alif Portfolio",
     images: [
       {
@@ -74,7 +74,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Al Mehedi Hasan Alif",
   jobTitle: "Backend Developer",
-  url: "https://hasanalif.vercel.app",
+  url: "https://mehedi-hasan-alif-portfolio.vercel.app",
   sameAs: [
     "https://github.com/HasanAlif",
     "https://www.linkedin.com/in/mehedihasanalif",

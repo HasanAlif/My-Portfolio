@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://hasanalif.vercel.app/sitemap.xml",
+    sitemap: "https://mehedi-hasan-alif-portfolio.vercel.app/sitemap.xml",
   };
 }

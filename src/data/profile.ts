@@ -1,7 +1,7 @@
 export const profile = {
   name: "Al Mehedi Hasan Alif",
   firstName: "Alif",
-  initials: "AH",
+  initials: "ALIF",
   role: "Backend Developer",
   roles: [
     "Backend Developer",
