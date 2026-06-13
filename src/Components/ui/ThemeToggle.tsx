@@ -34,11 +34,16 @@ export default function ThemeToggle({ className }: { className?: string }) {
   useEffect(() => setMounted(true), []);
 
   const isDark = resolvedTheme === "dark";
+  // Until mounted, theme is unknown on the server — keep a stable label to avoid
+  // a hydration mismatch on the aria-label attribute.
+  const label = mounted
+    ? `Switch to ${isDark ? "light" : "dark"} mode`
+    : "Toggle theme";
 
   return (
     <button
       type="button"
-      aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
+      aria-label={label}
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className={cn(
         "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200/70 text-slate-600 transition-colors hover:border-primary hover:text-primary dark:border-white/10 dark:text-slate-300 dark:hover:text-white",
